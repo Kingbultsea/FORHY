@@ -100,3 +100,8 @@ container也可以具有边距，填充和应用于其大小的约束。另外�
 
 ### Material组件
 MarterialApp、Scaffold、AppBar、FlatButton等。
+
+### 3.2.2父widget管理子widget的状态
+子widget无需成为statefulwidget,父传入回调改变状态就好，因为每次都会重新构建build。
+stateless 和 stateful 根据是否需要管理state状态来选取，state里面可以使用setState(),
+类似于vue框架。
