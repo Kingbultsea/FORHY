@@ -141,5 +141,32 @@ column 是 3
 是单数
 那他父 位置怎么计算？
 
+column = 0
+
+if (0) {
+  column = 0
+}
+if (1) {
+  column = 1
+}
+
+判断后面那一位 我觉得应该是两位两位判断吧？每次判断需要拿上一次的 和本次的 可以算出
+if (00) {
+  column = column * 2
+}
+if (01) {
+  column = ((column + 1) * 2) - 1
+}
+
+if (10) {
+  column = ((column + 1) * 2) - 1
+}
+if (11) {
+  column = column * 2
+}
+
+
+
+
 
 
