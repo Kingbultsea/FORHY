@@ -1,0 +1,505 @@
+﻿        'content-type': 'text/plain', 
+        'strict-transport-security': 'max-age=31536000', 
+        'content-length': '79' }, 
+     config: 
+      { adapter: [Function: httpAdapter], 
+        transformRequest: [Object], 
+        transformResponse: [Object], 
+        timeout: 60000, 
+        xsrfCookieName: 'XSRF-TOKEN', 
+        xsrfHeaderName: 'X-XSRF-TOKEN', 
+        maxContentLength: -1, 
+        validateStatus: [Function: validateStatus], 
+        headers: [Object], 
+        Cookie: [Object], 
+        httpAgent: false, 
+        httpsAgent: false, 
+        method: 'POST', 
+        url: 'https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxsendmsg', 
+        params: [Object], 
+        data: 
+         '{"BaseRequest":{"Uin":509383838,"Sid":"ORzbvDhd9Q3A8hkC","Skey":"@crypt_3da99a42_bab5038f6e9e33222ab321187b8f6c76","DeviceID":"e115792079716585"},"Scene":0,"Msg":{"Type":1,"Content":"心跳：12/24/2019, 8:00:00 PM","FromUserName":"@edc44b8d7f359f5cf7a77250cd961ff73c8c12cc03864b4c8a00f7feb38edaa1","ToUserName":"filehelper","LocalID":"15772176008880696","ClientMsgId":"15772176008880696"}}' }, 
+     data: { BaseResponse: [Object], MsgID: '', LocalID: '' } }, 
+  tips: '发送文本信息失败' } 
+Tue, 24 Dec 2019 20:00:01 GMT core AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:242:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Tue, 24 Dec 2019 20:00:01 GMT wechat AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:242:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+错误： { AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:242:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+  generatedMessage: true, 
+  name: 'AssertionError [ERR_ASSERTION]', 
+  code: 'ERR_ASSERTION', 
+  actual: 1101, 
+  expected: 0, 
+  operator: '==', 
+  response: 
+   { status: 200, 
+     statusText: 'OK', 
+     headers: 
+      { connection: 'close', 
+        'content-type': 'text/plain', 
+        'strict-transport-security': 'max-age=31536000', 
+        'content-length': '64' }, 
+     config: 
+      { adapter: [Function: httpAdapter], 
+        transformRequest: [Object], 
+        transformResponse: [Object], 
+        timeout: 60000, 
+        xsrfCookieName: 'XSRF-TOKEN', 
+        xsrfHeaderName: 'X-XSRF-TOKEN', 
+        maxContentLength: -1, 
+        validateStatus: [Function: validateStatus], 
+        headers: [Object], 
+        Cookie: [Object], 
+        httpAgent: false, 
+        httpsAgent: false, 
+        method: 'POST', 
+        url: 'https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxstatusnotify', 
+        params: [Object], 
+        data: 
+         '{"BaseRequest":{"Uin":509383838,"Sid":"ORzbvDhd9Q3A8hkC","Skey":"@crypt_3da99a42_bab5038f6e9e33222ab321187b8f6c76","DeviceID":"e446916535635474"},"Code":3,"FromUserName":"@edc44b8d7f359f5cf7a77250cd961ff73c8c12cc03864b4c8a00f7feb38edaa1","ToUserName":"@edc44b8d7f359f5cf7a77250cd961ff73c8c12cc03864b4c8a00f7feb38edaa1","ClientMsgId":"15772176008870962"}' }, 
+     data: { BaseResponse: [Object], MsgID: '' } }, 
+  tips: '手机状态通知失败' } 
+check 
+Tue, 24 Dec 2019 20:05:00 GMT wechat 心跳 
+Tue, 24 Dec 2019 20:05:01 GMT core AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:242:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Tue, 24 Dec 2019 20:05:01 GMT wechat AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:242:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+错误： { AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:242:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+  generatedMessage: true, 
+  name: 'AssertionError [ERR_ASSERTION]', 
+  code: 'ERR_ASSERTION', 
+  actual: 1101, 
+  expected: 0, 
+  operator: '==', 
+  response: 
+   { status: 200, 
+     statusText: 'OK', 
+     headers: 
+      { connection: 'close', 
+        'content-type': 'text/plain', 
+        'strict-transport-security': 'max-age=31536000', 
+        'content-length': '64' }, 
+     config: 
+      { adapter: [Function: httpAdapter], 
+        transformRequest: [Object], 
+        transformResponse: [Object], 
+        timeout: 60000, 
+        xsrfCookieName: 'XSRF-TOKEN', 
+        xsrfHeaderName: 'X-XSRF-TOKEN', 
+        maxContentLength: -1, 
+        validateStatus: [Function: validateStatus], 
+        headers: [Object], 
+        Cookie: [Object], 
+        httpAgent: false, 
+        httpsAgent: false, 
+        method: 'POST', 
+        url: 'https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxstatusnotify', 
+        params: [Object], 
+        data: 
+         '{"BaseRequest":{"Uin":509383838,"Sid":"ORzbvDhd9Q3A8hkC","Skey":"@crypt_3da99a42_bab5038f6e9e33222ab321187b8f6c76","DeviceID":"e705352210724072"},"Code":3,"FromUserName":"@edc44b8d7f359f5cf7a77250cd961ff73c8c12cc03864b4c8a00f7feb38edaa1","ToUserName":"@edc44b8d7f359f5cf7a77250cd961ff73c8c12cc03864b4c8a00f7feb38edaa1","ClientMsgId":"15772179009840268"}' }, 
+     data: { BaseResponse: [Object], MsgID: '' } }, 
+  tips: '手机状态通知失败' } 
+Tue, 24 Dec 2019 20:05:01 GMT core AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:493:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Tue, 24 Dec 2019 20:05:01 GMT wechat AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:493:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+错误： { AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:493:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+  generatedMessage: true, 
+  name: 'AssertionError [ERR_ASSERTION]', 
+  code: 'ERR_ASSERTION', 
+  actual: 1101, 
+  expected: 0, 
+  operator: '==', 
+  response: 
+   { status: 200, 
+     statusText: 'OK', 
+     headers: 
+      { connection: 'close', 
+        'content-type': 'text/plain', 
+        'strict-transport-security': 'max-age=31536000', 
+        'content-length': '79' }, 
+     config: 
+      { adapter: [Function: httpAdapter], 
+        transformRequest: [Object], 
+        transformResponse: [Object], 
+        timeout: 60000, 
+        xsrfCookieName: 'XSRF-TOKEN', 
+        xsrfHeaderName: 'X-XSRF-TOKEN', 
+        maxContentLength: -1, 
+        validateStatus: [Function: validateStatus], 
+        headers: [Object], 
+        Cookie: [Object], 
+        httpAgent: false, 
+        httpsAgent: false, 
+        method: 'POST', 
+        url: 'https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxsendmsg', 
+        params: [Object], 
+        data: 
+         '{"BaseRequest":{"Uin":509383838,"Sid":"ORzbvDhd9Q3A8hkC","Skey":"@crypt_3da99a42_bab5038f6e9e33222ab321187b8f6c76","DeviceID":"e661699844316928"},"Scene":0,"Msg":{"Type":1,"Content":"心跳：12/24/2019, 8:05:00 PM","FromUserName":"@edc44b8d7f359f5cf7a77250cd961ff73c8c12cc03864b4c8a00f7feb38edaa1","ToUserName":"filehelper","LocalID":"15772179009840540","ClientMsgId":"15772179009840540"}}' }, 
+     data: { BaseResponse: [Object], MsgID: '', LocalID: '' } }, 
+  tips: '发送文本信息失败' } 
+check 
+Tue, 24 Dec 2019 20:10:01 GMT wechat 心跳 
+Tue, 24 Dec 2019 20:10:01 GMT core AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:493:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Tue, 24 Dec 2019 20:10:01 GMT wechat AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:493:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+错误： { AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:493:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+  generatedMessage: true, 
+  name: 'AssertionError [ERR_ASSERTION]', 
+  code: 'ERR_ASSERTION', 
+  actual: 1101, 
+  expected: 0, 
+  operator: '==', 
+  response: 
+   { status: 200, 
+     statusText: 'OK', 
+     headers: 
+      { connection: 'close', 
+        'content-type': 'text/plain', 
+        'strict-transport-security': 'max-age=31536000', 
+        'content-length': '79' }, 
+     config: 
+      { adapter: [Function: httpAdapter], 
+        transformRequest: [Object], 
+        transformResponse: [Object], 
+        timeout: 60000, 
+        xsrfCookieName: 'XSRF-TOKEN', 
+        xsrfHeaderName: 'X-XSRF-TOKEN', 
+        maxContentLength: -1, 
+        validateStatus: [Function: validateStatus], 
+        headers: [Object], 
+        Cookie: [Object], 
+        httpAgent: false, 
+        httpsAgent: false, 
+        method: 'POST', 
+        url: 'https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxsendmsg', 
+        params: [Object], 
+        data: 
+         '{"BaseRequest":{"Uin":509383838,"Sid":"ORzbvDhd9Q3A8hkC","Skey":"@crypt_3da99a42_bab5038f6e9e33222ab321187b8f6c76","DeviceID":"e850843713522051"},"Scene":0,"Msg":{"Type":1,"Content":"心跳：12/24/2019, 8:10:01 PM","FromUserName":"@edc44b8d7f359f5cf7a77250cd961ff73c8c12cc03864b4c8a00f7feb38edaa1","ToUserName":"filehelper","LocalID":"15772182010780124","ClientMsgId":"15772182010780124"}}' }, 
+     data: { BaseResponse: [Object], MsgID: '', LocalID: '' } }, 
+  tips: '发送文本信息失败' } 
+Tue, 24 Dec 2019 20:10:01 GMT core AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:242:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Tue, 24 Dec 2019 20:10:01 GMT wechat AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:242:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+错误： { AssertionError [ERR_ASSERTION]: 1101 == 0 
+    at Object.equal (/project/src/util/global.js:53:14) 
+    at /project/src/core.js:242:16 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+  generatedMessage: true, 
+  name: 'AssertionError [ERR_ASSERTION]', 
+  code: 'ERR_ASSERTION', 
+  actual: 1101, 
+  expected: 0, 
+  operator: '==', 
+  response: 
+   { status: 200, 
+     statusText: 'OK', 
+     headers: 
+      { connection: 'close', 
+        'content-type': 'text/plain', 
+        'strict-transport-security': 'max-age=31536000', 
+        'content-length': '64' }, 
+     config: 
+      { adapter: [Function: httpAdapter], 
+        transformRequest: [Object], 
+        transformResponse: [Object], 
+        timeout: 60000, 
+        xsrfCookieName: 'XSRF-TOKEN', 
+        xsrfHeaderName: 'X-XSRF-TOKEN', 
+        maxContentLength: -1, 
+        validateStatus: [Function: validateStatus], 
+        headers: [Object], 
+        Cookie: [Object], 
+        httpAgent: false, 
+        httpsAgent: false, 
+        method: 'POST', 
+        url: 'https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxstatusnotify', 
+        params: [Object], 
+        data: 
+         '{"BaseRequest":{"Uin":509383838,"Sid":"ORzbvDhd9Q3A8hkC","Skey":"@crypt_3da99a42_bab5038f6e9e33222ab321187b8f6c76","DeviceID":"e700634900768513"},"Code":3,"FromUserName":"@edc44b8d7f359f5cf7a77250cd961ff73c8c12cc03864b4c8a00f7feb38edaa1","ToUserName":"@edc44b8d7f359f5cf7a77250cd961ff73c8c12cc03864b4c8a00f7feb38edaa1","ClientMsgId":"15772182010780157"}' }, 
+     data: { BaseResponse: [Object], MsgID: '' } }, 
+  tips: '手机状态通知失败' } 
+check 
+Tue, 24 Dec 2019 20:15:01 GMT wechat Error: 状态同步超过1148.937s未响应，5s后尝试重启 
+    at Wechat.checkPolling (/project/src/wechat.js:274:17) 
+    at Timeout._onTimeout (/project/src/wechat.js:292:51) 
+    at ontimeout (timers.js:436:11) 
+    at tryOnTimeout (timers.js:300:5) 
+    at listOnTimeout (timers.js:263:5) 
+    at Timer.processTimers (timers.js:223:10) 
+错误： Error: 状态同步超过1148.937s未响应，5s后尝试重启 
+    at Wechat.checkPolling (/project/src/wechat.js:274:17) 
+    at Timeout._onTimeout (/project/src/wechat.js:292:51) 
+    at ontimeout (timers.js:436:11) 
+    at tryOnTimeout (timers.js:300:5) 
+    at listOnTimeout (timers.js:263:5) 
+    at Timer.processTimers (timers.js:223:10) 
+Tue, 24 Dec 2019 20:15:06 GMT wechat 重启中... 
+登出成功 
+Tue, 24 Dec 2019 20:15:06 GMT core Error: already logout 
+    at new AlreadyLogoutError (/project/src/core.js:17:44) 
+    at /project/src/core.js:178:17 
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+https://login.weixin.qq.com/qrcode/AbBymihQXQ== ---url 
+登出成功 
+Wed, 25 Dec 2019 07:29:56 GMT wechat 登出中... 
+Wed, 25 Dec 2019 07:29:57 GMT wechat 启动中... 
+Wed, 25 Dec 2019 07:29:58 GMT wechat getUUID:  QfCOM1qPOg== 
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ 
+█ ▄▄▄▄▄ █▀▄█▀ ██ █▀█▄▀█ ▄▄▄▄▄ █ 
+█ █   █ █▄   ▄▀ ▀ ▄█▀▀█ █   █ █ 
+█ █▄▄▄█ █ ▀█▀█ ▀ ▀  ▀▀█ █▄▄▄█ █ 
+█▄▄▄▄▄▄▄█ ▀▄█ █▄▀▄▀▄▀ █▄▄▄▄▄▄▄█ 
+█▄▄▀ ▀█▄▄▀█ ▀██▄  ▀█▄█▀ ▄▄▀▄▄▀█ 
+█▀██▀▀ ▄▀▄▄▄██▀██ ▄ ▄▄  ▄ ▄  ██ 
+██ ██▄ ▄█▄▀▀▀ ▄█ ▄▄█  ▀▄██▄█▄▄█ 
+█▄▄▀  ▄▄▀ █▄█   ██▀▀▀▄ ▀██ ▄ ▄█ 
+████ ██▄▀█▄▀▄██▄▀▀ ██▄▄▀▀█▀█▄▀█ 
+█▄█ ▀  ▄█ ▄ ▀██▀█▄▀▀█▄▄▄▄▀██  █ 
+█▄██▄█▄▄▄ █▄  ▄▀█ █▄▄ ▄▄▄ █ ▀▀█ 
+█ ▄▄▄▄▄ █▄▄▄   █▀▄▄▀█ █▄█ ▀▀ ▀█ 
+█ █   █ █▀ █ █▀▄▀█▄█▀▄▄   ▀▀▀██ 
+█ █▄▄▄█ █▀▀█ █▄▄█▀ █▀ ██▀▄▄▄▀▄█ 
+█▄▄▄▄▄▄▄█▄▄██▄▄█▄█▄▄█▄▄█▄█▄█▄██ 
+ 
+qrBlock link： https://login.weixin.qq.com/qrcode/QfCOM1qPOg== 
+Wed, 25 Dec 2019 07:30:23 GMT wechat checkLogin:  408 
+Wed, 25 Dec 2019 07:30:48 GMT wechat checkLogin:  408 
+Wed, 25 Dec 2019 07:31:13 GMT wechat checkLogin:  408 
+Wed, 25 Dec 2019 07:31:27 GMT wechat checkLogin:  201 
+Wed, 25 Dec 2019 07:31:29 GMT wechat checkLogin:  https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxnewloginpage?ticket=A37nPZLEwzV6YbSxLxt09qwS@qrticket_0&uuid=QfCOM1qPOg==&lang=zh-CN&scan=1577259087 
+<error><ret>0</ret><message></message><skey>@crypt_3da99a42_295b705b60a78aa621fdd77e164e8dcb</skey><wxsid>3cr2t7o9+SbMAdLe</wxsid><wxuin>509383838</wxuin><pass_ticket>P2nn9pKSwwoxgcx3ZUJXCkJGnGFz68bcZ9EOetn4OXHEo66Ieeoh0jJhr9Th%2BVGu</pass_ticket><isgrayscale>1</isgrayscale></error> 登陆的时候会拥有 
+check 
+登录成功 
+Wed, 25 Dec 2019 07:31:30 GMT wechat 心跳 
+Wed, 25 Dec 2019 07:31:30 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:31:31 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:31:31 GMT wechat syncPolling messages count:  2 
+----------7:31---------- 
+message check --- 
+----------7:31---------- 
+message check --- 
+Wed, 25 Dec 2019 07:31:31 GMT wechat getContact count:  53 
+Wed, 25 Dec 2019 07:31:44 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:31:44 GMT wechat syncPolling messages count:  1 
+----------7:31---------- 
+message check --- 
+Wed, 25 Dec 2019 07:31:51 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:31:52 GMT wechat syncPolling messages count:  1 
+----------7:31---------- 
+message check --- 
+Wed, 25 Dec 2019 07:32:17 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:32:17 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:32:42 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:33:07 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:33:32 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:33:57 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:34:23 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:34:48 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:35:13 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:35:38 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:36:03 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:36:28 GMT wechat Sync Check Selector:  0 
+check 
+Wed, 25 Dec 2019 07:36:30 GMT wechat 心跳 
+Wed, 25 Dec 2019 07:36:30 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:36:31 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:36:31 GMT wechat syncPolling messages count:  1 
+----------7:36---------- 
+message check --- 
+Wed, 25 Dec 2019 07:36:56 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:37:21 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:37:47 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:38:12 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:38:37 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:39:02 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:39:27 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:39:52 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:40:17 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:40:42 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:41:07 GMT wechat Sync Check Selector:  0 
+check 
+Wed, 25 Dec 2019 07:41:30 GMT wechat 心跳 
+Wed, 25 Dec 2019 07:41:30 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:41:31 GMT wechat Sync Check Selector:  2 
+----------7:41---------- 
+message check --- 
+----------7:41---------- 
+message check --- 
+Wed, 25 Dec 2019 07:41:31 GMT wechat syncPolling messages count:  2 
+Wed, 25 Dec 2019 07:41:56 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:42:21 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:42:46 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:43:12 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:43:37 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:44:02 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:44:27 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:44:52 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:45:17 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:45:42 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:46:07 GMT wechat Sync Check Selector:  0 
+check 
+Wed, 25 Dec 2019 07:46:30 GMT wechat 心跳 
+Wed, 25 Dec 2019 07:46:30 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:46:31 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:46:36 GMT wechat syncPolling messages count:  1 
+----------7:46---------- 
+message check --- 
+Wed, 25 Dec 2019 07:47:01 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:47:26 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:47:51 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:48:16 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:48:41 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:49:06 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:49:32 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:49:57 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:50:22 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:50:47 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:51:12 GMT wechat Sync Check Selector:  0 
+check 
+Wed, 25 Dec 2019 07:51:30 GMT wechat 心跳 
+Wed, 25 Dec 2019 07:51:30 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:51:31 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:51:31 GMT wechat syncPolling messages count:  1 
+----------7:51---------- 
+message check --- 
+Wed, 25 Dec 2019 07:51:56 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:52:21 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:52:46 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:53:11 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:53:37 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:54:02 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:54:27 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:54:52 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:55:17 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:55:42 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:56:07 GMT wechat Sync Check Selector:  0 
+check 
+Wed, 25 Dec 2019 07:56:30 GMT wechat 心跳 
+Wed, 25 Dec 2019 07:56:30 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:56:31 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:56:31 GMT wechat syncPolling messages count:  1 
+----------7:56---------- 
+message check --- 
+Wed, 25 Dec 2019 07:56:35 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 07:57:01 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:57:26 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:57:51 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:58:16 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:58:41 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:59:06 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:59:31 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 07:59:56 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:00:22 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:00:47 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:01:12 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:01:30 GMT wechat 心跳 
+check 
+Wed, 25 Dec 2019 08:01:30 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 08:01:31 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 08:01:31 GMT wechat syncPolling messages count:  1 
+----------8:01---------- 
+message check --- 
+Wed, 25 Dec 2019 08:01:56 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:02:21 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:02:46 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:03:11 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:03:36 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:04:01 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:04:27 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:04:57 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:05:22 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:05:47 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:06:12 GMT wechat Sync Check Selector:  0 
+check 
+Wed, 25 Dec 2019 08:06:30 GMT wechat 心跳 
+Wed, 25 Dec 2019 08:06:30 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 08:06:31 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 08:06:31 GMT wechat syncPolling messages count:  1 
+----------8:06---------- 
+message check --- 
+Wed, 25 Dec 2019 08:06:56 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:07:21 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:07:46 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:08:11 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:08:37 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:09:02 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:09:27 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:09:52 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:10:17 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:10:42 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:11:07 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:11:30 GMT wechat 心跳 
+check 
+Wed, 25 Dec 2019 08:11:30 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 08:11:31 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 08:11:31 GMT wechat syncPolling messages count:  2 
+----------8:11---------- 
+message check --- 
+----------8:11---------- 
+message check --- 
+Wed, 25 Dec 2019 08:11:56 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:12:21 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:12:47 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:13:12 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:13:37 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:14:02 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:14:27 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:14:52 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:15:17 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:15:42 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:16:08 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:16:30 GMT wechat 心跳 
+check 
+Wed, 25 Dec 2019 08:16:30 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 08:16:31 GMT wechat Sync Check Selector:  2 
+Wed, 25 Dec 2019 08:16:31 GMT wechat syncPolling messages count:  1 
+----------8:16---------- 
+message check --- 
+Wed, 25 Dec 2019 08:16:56 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:17:21 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:17:46 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:18:11 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:18:36 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:19:02 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:19:27 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:19:52 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:20:17 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:20:42 GMT wechat Sync Check Selector:  0 
+Wed, 25 Dec 2019 08:21:07 GMT wechat Sync Check Selector:  0 
