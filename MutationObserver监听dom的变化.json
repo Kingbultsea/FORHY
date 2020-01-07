@@ -1,2 +1,0 @@
-https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver
-创建并返回一个新的 MutationObserver 它会在指定的DOM发生变化时被调用。
